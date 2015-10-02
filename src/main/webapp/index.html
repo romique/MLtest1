@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="script.js"></script>
+</head>
+<body>
+    values: <input width="500" type="text" id="values">
+    <br />
+    separator: <input width="50" type="text" id="separator" value=",">
+    auto assign keys <input type="checkbox" id="autoAssignKeys">
+    <input type="button" value="Submit" onclick="send()">
+    <input type="button" value="OANDATEST" onclick="sendOanda()">
+    <br />
+    instrument: <input width="150" id="instrument" type="text" value="EUR_USD">
+    <input type="button" value="getCurrentValue" onclick="getCurrentValue()">
+    <input type="button" value="getCurrentDataMap" onclick="getDataMap()">
+    <input type="button" value="getResultFromDivStrategy" onclick="getDivStrategy()">
+    <br />
+    <div id="result">
+
+    </div>
+</body>
+</html>
